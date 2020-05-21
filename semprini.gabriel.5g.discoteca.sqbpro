@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/PC07/albums.db" foreign_keys="1"/><window><current_tab id="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1177"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="albums"/><default_encoding codec=""/><browsetable_info data="AAAAAgAAAAoAYgByAGEAbgBpAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAA/////wAAAAwAYQBsAGIAdQBtAHMAAAAAAAAAAAAAAAIAAAAFAAAAigAAAAQAAAB/AAAAAQAAAAUAAAAAAAAAAAD//////////wAAAAD/////"/></tab_browse><tab_sql><sql name="SQL 1">INSERT INTO albums
+(id, titolo, autore, casadiscografica , annopubblicazione )
+values(1, 'viva la vida', 'Coldplay', 'universal', 2008);
+INSERT INTO albums
+(id, titolo, autore, casadiscografica , annopubblicazione )
+values(2, 'a head full of dreams', 'Coldplay', 'Parlophone', 2015);
+INSERT INTO albums
+(id, titolo, autore, casadiscografica , annopubblicazione )
+values(3, 'thriller', 'Michael Jackson', 'Columbia records', 1982);
+INSERT INTO albums
+(id, titolo, autore, casadiscografica , annopubblicazione )
+values(4, 'a kind of magin', 'Queen', 'universal', 1986);
+INSERT INTO albums
+(id, titolo, autore, casadiscografica , annopubblicazione )
+values(5, 'a love trilogy', 'Donna Summer', 'Casablanca', 1976);</sql><sql name="SQL 2">INSERT INTO brani
+(id, titolo, autore, durata , link spotify )
+values(1, 'viva la vida', 'Coldplay', 4:03,  );
+INSERT INTO brani
+(id, titolo, autore, durata , link spotify )
+values(2, 'lost!', 'Coldplay', 3:56,  );
+INSERT INTO brani
+(id, titolo, autore, durata , link spotify )
+values(3, 'a head full of dreams', 'Coldplay', 3:44,  );
+INSERT INTO brani
+(id, titolo, autore, durata , link spotify )
+values(4, 'birds', 'Coldplay', 3:49,  );
+INSERT INTO brani
+(id, titolo, autore, durata , link spotify )
+values(5, 'baby be mine', 'Michael Jackson', 4:20,  );
+INSERT INTO brani
+(id, titolo, autore, durata , link spotify )
+values(6, 'the girl is mine', 'Michael Jackson', 3:42,  );
+INSERT INTO brani
+(id, titolo, autore, durata , link spotify )
+values(7, 'one vision', 'Queen', 5:10,  );
+INSERT INTO brani
+(id, titolo, autore, durata , link spotify )
+values(8, 'a kind of magic', 'Queen', 4:24,  );
+INSERT INTO brani
+(id, titolo, autore, durata , link spotify )
+values(9, 'could it be magic', 'Donna Summer', 5:18,  );
+INSERT INTO brani
+(id, titolo, autore, durata , link spotify )
+values(10, 'could be magic', 'Donna Summer', 4:21,  );</sql><current_tab id="1"/></tab_sql></sqlb_project>
